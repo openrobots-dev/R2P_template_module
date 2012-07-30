@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -6861,105 +6861,6 @@ SOurce: www.abracon.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-amp-micromatch">
-<description>AMP Connectors, Type  MicroMatch</description>
-<packages>
-<package name="MICROMATCH-4">
-<description>&lt;b&gt;MicroMaTch 4 &lt;/b&gt; 7-215464-4 / 0-215464-4&lt;p&gt;
-Drawing Number C-215464&lt;br&gt;
-DDEController.pdf</description>
-<wire x1="-3.56" y1="0.7" x2="-3.96" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-3.96" y1="0.7" x2="-3.96" y2="-0.7" width="0.2032" layer="21"/>
-<wire x1="-3.96" y1="-0.7" x2="-3.56" y2="-0.7" width="0.2032" layer="21"/>
-<wire x1="-3.56" y1="-1.2" x2="-3.96" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="-3.96" y1="-1.2" x2="-3.96" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="-3.96" y1="-1.6" x2="-3.56" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="-3.56" y1="1.6" x2="-3.96" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="-3.96" y1="1.6" x2="-3.96" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="-3.96" y1="1.2" x2="-3.56" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="-3.46" y1="2.4" x2="-3.46" y2="-2.4" width="0.2032" layer="21"/>
-<wire x1="-2.66" y1="2" x2="-2.66" y2="-2" width="0.2032" layer="21"/>
-<wire x1="3.36" y1="1.6" x2="3.06" y2="1.6" width="0.1016" layer="21"/>
-<wire x1="3.06" y1="1.6" x2="2.76" y2="1.6" width="0.1016" layer="21"/>
-<wire x1="3.36" y1="0" x2="3.06" y2="0" width="0.1016" layer="21"/>
-<wire x1="3.06" y1="0" x2="2.76" y2="0" width="0.1016" layer="21"/>
-<wire x1="3.06" y1="0" x2="2.76" y2="0.3" width="0.1016" layer="21"/>
-<wire x1="3.06" y1="1.6" x2="2.76" y2="1.3" width="0.1016" layer="21"/>
-<wire x1="2.96" y1="1.4" x2="3.06" y2="1.3" width="0.1016" layer="21"/>
-<wire x1="3.36" y1="1.3" x2="3.06" y2="1.3" width="0.1016" layer="21"/>
-<wire x1="3.06" y1="1.3" x2="3.06" y2="0.3" width="0.1016" layer="21"/>
-<wire x1="3.06" y1="0.3" x2="3.36" y2="0.3" width="0.1016" layer="21"/>
-<wire x1="2.96" y1="0.2" x2="3.06" y2="0.3" width="0.1016" layer="21"/>
-<wire x1="3.56" y1="-0.7" x2="3.96" y2="-0.7" width="0.2032" layer="21"/>
-<wire x1="3.96" y1="-0.7" x2="3.96" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="3.96" y1="0.7" x2="3.56" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="3.56" y1="1.2" x2="3.96" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="3.96" y1="1.2" x2="3.96" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="3.96" y1="1.6" x2="3.56" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="3.56" y1="-1.6" x2="3.96" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="3.96" y1="-1.6" x2="3.96" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="3.96" y1="-1.2" x2="3.56" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="3.46" y1="-2.4" x2="3.46" y2="2.4" width="0.2032" layer="21"/>
-<wire x1="2.66" y1="2" x2="-2.66" y2="2" width="0.2032" layer="21"/>
-<wire x1="3.46" y1="2.4" x2="-3.46" y2="2.4" width="0.2032" layer="21"/>
-<wire x1="3.46" y1="-2.4" x2="-3.46" y2="-2.4" width="0.2032" layer="21"/>
-<wire x1="2.66" y1="-2" x2="2.66" y2="2" width="0.2032" layer="21"/>
-<wire x1="2.66" y1="-2" x2="-2.66" y2="-2" width="0.2032" layer="21"/>
-<pad name="1" x="1.905" y="1.27" drill="0.8128"/>
-<pad name="2" x="0.635" y="-1.27" drill="0.8128"/>
-<pad name="3" x="-0.635" y="1.27" drill="0.8128"/>
-<pad name="4" x="-1.905" y="-1.27" drill="0.8128"/>
-<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="MV">
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
-<text x="-0.508" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<text x="0" y="0.889" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="M">
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
-<text x="-0.508" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MICROMATCH-4" prefix="X">
-<description>&lt;b&gt;MicroMaTch 4 &lt;/b&gt; 7-215464-4 / 0-215464-4&lt;p&gt;
-Drawing Number C-215464&lt;br&gt;
-DDEController.pdf</description>
-<gates>
-<gate name="-1" symbol="MV" x="-2.54" y="2.54" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="M" x="-2.54" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-3" symbol="M" x="-2.54" y="-2.54" addlevel="always" swaplevel="1"/>
-<gate name="-4" symbol="M" x="-2.54" y="-5.08" addlevel="always" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="MICROMATCH-4">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="7-215464-4" constant="no"/>
-<attribute name="OC_FARNELL" value="3784629" constant="no"/>
-<attribute name="OC_NEWARK" value="19R8124" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="misc">
 <packages>
 <package name="1X04">
@@ -7086,6 +6987,230 @@ DDEController.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="tyco">
+<packages>
+<package name="MICROMATCH-4">
+<description>&lt;b&gt;MicroMaTch 4 &lt;/b&gt; 7-215464-4 / 0-215464-4</description>
+<wire x1="-3.56" y1="0.7" x2="-3.96" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-3.96" y1="0.7" x2="-3.96" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="-3.96" y1="-0.7" x2="-3.56" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="-3.56" y1="-1.2" x2="-3.96" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="-3.96" y1="-1.2" x2="-3.96" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-3.96" y1="-1.6" x2="-3.56" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-3.56" y1="1.6" x2="-3.96" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="-3.96" y1="1.6" x2="-3.96" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-3.96" y1="1.2" x2="-3.56" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-2.66" y1="2" x2="-2.66" y2="-2" width="0.2032" layer="21"/>
+<wire x1="3.36" y1="1.6" x2="3.06" y2="1.6" width="0.1016" layer="21"/>
+<wire x1="3.06" y1="1.6" x2="2.76" y2="1.6" width="0.1016" layer="21"/>
+<wire x1="3.36" y1="0" x2="3.06" y2="0" width="0.1016" layer="21"/>
+<wire x1="3.06" y1="0" x2="2.76" y2="0" width="0.1016" layer="21"/>
+<wire x1="3.06" y1="0" x2="2.76" y2="0.3" width="0.1016" layer="21"/>
+<wire x1="3.06" y1="1.6" x2="2.76" y2="1.3" width="0.1016" layer="21"/>
+<wire x1="2.96" y1="1.4" x2="3.06" y2="1.3" width="0.1016" layer="21"/>
+<wire x1="3.36" y1="1.3" x2="3.06" y2="1.3" width="0.1016" layer="21"/>
+<wire x1="3.06" y1="1.3" x2="3.06" y2="0.3" width="0.1016" layer="21"/>
+<wire x1="3.06" y1="0.3" x2="3.36" y2="0.3" width="0.1016" layer="21"/>
+<wire x1="2.96" y1="0.2" x2="3.06" y2="0.3" width="0.1016" layer="21"/>
+<wire x1="3.56" y1="-0.7" x2="3.96" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="3.96" y1="-0.7" x2="3.96" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="3.96" y1="0.7" x2="3.56" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="3.56" y1="1.2" x2="3.96" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="3.96" y1="1.2" x2="3.96" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="3.96" y1="1.6" x2="3.56" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="3.56" y1="-1.6" x2="3.96" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="3.96" y1="-1.6" x2="3.96" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="3.96" y1="-1.2" x2="3.56" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="3.46" y1="-2.4" x2="3.46" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="2.66" y1="2" x2="-2.66" y2="2" width="0.2032" layer="21"/>
+<wire x1="3.46" y1="2.4" x2="-3.46" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="3.46" y1="-2.4" x2="-3.46" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="2.66" y1="-2" x2="2.66" y2="2" width="0.2032" layer="21"/>
+<wire x1="2.66" y1="-2" x2="-2.66" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.46" y1="2.4" x2="-3.46" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="2.6" x2="4.85" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="-4.85" y1="2.6" x2="-4.85" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="-4.85" y1="2.6" x2="4.85" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="-4.85" y1="-2.6" x2="4.85" y2="-2.6" width="0.2032" layer="21"/>
+<pad name="1" x="1.905" y="1.27" drill="0.8128" diameter="1.4224"/>
+<pad name="2" x="0.635" y="-1.27" drill="0.8128" diameter="1.4224"/>
+<pad name="3" x="-0.635" y="1.27" drill="0.8128" diameter="1.4224"/>
+<pad name="4" x="-1.905" y="-1.27" drill="0.8128" diameter="1.4224"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="3.305" y="-0.53" drill="1.6"/>
+</package>
+<package name="MICROMATCH-4-SMD">
+<description>&lt;b&gt;MicroMaTch 4 SMD&lt;/b&gt; 7-188275-4 / 0-188275-4</description>
+<wire x1="-3.56" y1="0.7" x2="-3.96" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-3.96" y1="0.7" x2="-3.96" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="-3.96" y1="-0.7" x2="-3.56" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="-3.56" y1="-1.2" x2="-3.96" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="-3.96" y1="-1.2" x2="-3.96" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-3.96" y1="-1.6" x2="-3.56" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-3.56" y1="1.6" x2="-3.96" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="-3.96" y1="1.6" x2="-3.96" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-3.96" y1="1.2" x2="-3.56" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-3.46" y1="2.4" x2="-3.46" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-2.66" y1="2" x2="-2.66" y2="-2" width="0.2032" layer="21"/>
+<wire x1="3.36" y1="1.6" x2="3.06" y2="1.6" width="0.1016" layer="21"/>
+<wire x1="3.06" y1="1.6" x2="2.76" y2="1.6" width="0.1016" layer="21"/>
+<wire x1="3.36" y1="0" x2="3.06" y2="0" width="0.1016" layer="21"/>
+<wire x1="3.06" y1="0" x2="2.76" y2="0" width="0.1016" layer="21"/>
+<wire x1="3.06" y1="0" x2="2.76" y2="0.3" width="0.1016" layer="21"/>
+<wire x1="3.06" y1="1.6" x2="2.76" y2="1.3" width="0.1016" layer="21"/>
+<wire x1="2.96" y1="1.4" x2="3.06" y2="1.3" width="0.1016" layer="21"/>
+<wire x1="3.36" y1="1.3" x2="3.06" y2="1.3" width="0.1016" layer="21"/>
+<wire x1="3.06" y1="1.3" x2="3.06" y2="0.3" width="0.1016" layer="21"/>
+<wire x1="3.06" y1="0.3" x2="3.36" y2="0.3" width="0.1016" layer="21"/>
+<wire x1="2.96" y1="0.2" x2="3.06" y2="0.3" width="0.1016" layer="21"/>
+<wire x1="3.56" y1="-0.7" x2="3.96" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="3.96" y1="-0.7" x2="3.96" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="3.96" y1="0.7" x2="3.56" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="3.56" y1="1.2" x2="3.96" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="3.96" y1="1.2" x2="3.96" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="3.96" y1="1.6" x2="3.56" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="3.56" y1="-1.6" x2="3.96" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="3.96" y1="-1.6" x2="3.96" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="3.96" y1="-1.2" x2="3.56" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="3.46" y1="-2.4" x2="3.46" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="2.66" y1="2" x2="-2.66" y2="2" width="0.2032" layer="21"/>
+<wire x1="3.46" y1="2.4" x2="-3.46" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="3.46" y1="-2.4" x2="-3.46" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="2.66" y1="-2" x2="2.66" y2="2" width="0.2032" layer="21"/>
+<wire x1="2.66" y1="-2" x2="-2.66" y2="-2" width="0.2032" layer="21"/>
+<wire x1="1.5875" y1="-0.3175" x2="2.2225" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="2.2225" y1="-0.3175" x2="2.2225" y2="-1.5875" width="0.127" layer="21"/>
+<wire x1="2.2225" y1="-1.5875" x2="1.5875" y2="-1.5875" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="-1.5875" x2="1.5875" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="1.5875" x2="0.9525" y2="1.5875" width="0.127" layer="21"/>
+<wire x1="0.9525" y1="1.5875" x2="0.9525" y2="0.3175" width="0.127" layer="21"/>
+<wire x1="0.9525" y1="0.3175" x2="0.3175" y2="0.3175" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0.3175" x2="0.3175" y2="1.5875" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="-0.3175" x2="-0.3175" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="-0.3175" x2="-0.3175" y2="-1.5875" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="-1.5875" x2="-0.9525" y2="-1.5875" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="-1.5875" x2="-0.9525" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="-2.2225" y1="1.5875" x2="-1.5875" y2="1.5875" width="0.127" layer="21"/>
+<wire x1="-1.5875" y1="1.5875" x2="-1.5875" y2="0.3175" width="0.127" layer="21"/>
+<wire x1="-1.5875" y1="0.3175" x2="-2.2225" y2="0.3175" width="0.127" layer="21"/>
+<wire x1="-2.2225" y1="0.3175" x2="-2.2225" y2="1.5875" width="0.127" layer="21"/>
+<smd name="1" x="1.905" y="-2.54" dx="1.5" dy="3.58" layer="1"/>
+<smd name="2" x="0.635" y="2.54" dx="1.5" dy="3.58" layer="1"/>
+<smd name="3" x="-0.635" y="-2.54" dx="1.5" dy="3.58" layer="1"/>
+<smd name="4" x="-1.905" y="2.54" dx="1.5" dy="3.58" layer="1"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<text x="3.175" y="-3.81" size="1.27" layer="21">1</text>
+</package>
+<package name="MICROMATCH-4-SIDE">
+<description>&lt;b&gt;MicroMaTch 4 Side Entry&lt;/b&gt; 7-215460-4 / 0-215460-4</description>
+<wire x1="-3.556" y1="1.016" x2="-2.794" y2="1.016" width="0.2032" layer="21"/>
+<wire x1="-2.794" y1="1.016" x2="2.794" y2="1.016" width="0.2032" layer="21"/>
+<wire x1="2.794" y1="1.016" x2="3.556" y2="1.016" width="0.2032" layer="21"/>
+<wire x1="-3.556" y1="-0.762" x2="-2.794" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.794" y1="-0.762" x2="2.794" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.794" y1="-0.762" x2="3.556" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-3.556" y1="1.016" x2="-3.556" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="3.556" y1="1.016" x2="3.556" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.794" y1="-0.762" x2="2.794" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="2.794" y1="-2.54" x2="-2.794" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-2.794" y1="-2.54" x2="-2.794" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.794" y1="1.016" x2="-2.794" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="2.413" x2="-1.905" y2="1.143" width="0.4064" layer="21"/>
+<wire x1="-0.635" y1="2.413" x2="-0.635" y2="1.143" width="0.4064" layer="21"/>
+<wire x1="0.635" y1="2.413" x2="0.635" y2="2.032" width="0.4064" layer="21"/>
+<wire x1="0.635" y1="2.032" x2="0.635" y2="1.143" width="0.4064" layer="21"/>
+<wire x1="1.905" y1="2.413" x2="1.905" y2="2.032" width="0.4064" layer="21"/>
+<wire x1="1.905" y1="2.032" x2="1.905" y2="1.143" width="0.4064" layer="21"/>
+<wire x1="2.794" y1="1.016" x2="2.794" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="2.794" y1="2.54" x2="2.413" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="2.413" y1="2.54" x2="1.905" y2="2.032" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="2.032" x2="1.397" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="1.397" y1="2.54" x2="1.143" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="1.143" y1="2.54" x2="0.635" y2="2.032" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="2.032" x2="0.127" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="0.127" y1="2.54" x2="-0.127" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-0.127" y1="2.54" x2="-0.635" y2="2.032" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="2.032" x2="-1.143" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-1.143" y1="2.54" x2="-1.397" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-1.397" y1="2.54" x2="-1.905" y2="2.032" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="2.032" x2="-2.413" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-2.413" y1="2.54" x2="-2.794" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="2.794" y1="1.016" x2="2.794" y2="0.762" width="0.127" layer="21"/>
+<wire x1="2.794" y1="0.508" x2="2.794" y2="0.254" width="0.127" layer="21"/>
+<wire x1="2.794" y1="0" x2="2.794" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="2.794" y1="-0.508" x2="2.794" y2="-0.762" width="0.127" layer="21"/>
+<pad name="1" x="1.905" y="1.27" drill="0.8128"/>
+<pad name="2" x="0.635" y="-1.27" drill="0.8128"/>
+<pad name="3" x="-0.635" y="1.27" drill="0.8128"/>
+<pad name="4" x="-1.905" y="-1.27" drill="0.8128"/>
+<text x="-1.905" y="2.8575" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-4.1275" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MV">
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
+<text x="-0.508" y="0.762" size="1.524" layer="95" rot="R180">&gt;NAME</text>
+<text x="0" y="0.889" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="M">
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
+<text x="-0.508" y="0.762" size="1.524" layer="95" rot="R180">&gt;NAME</text>
+<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MICROMATCH-4" prefix="X">
+<description>&lt;b&gt;MicroMaTch 4&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="MV" x="-2.54" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="-2.54" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="-2.54" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="M" x="-2.54" y="-5.08" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="MICROMATCH-4">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SMD" package="MICROMATCH-4-SMD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SIDE" package="MICROMATCH-4-SIDE">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7162,7 +7287,7 @@ DDEController.pdf</description>
 <part name="P+2" library="supply" deviceset="+5V" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="X1" library="con-amp-micromatch" deviceset="MICROMATCH-4" device=""/>
+<part name="X1" library="tyco" deviceset="MICROMATCH-4" device=""/>
 </parts>
 <sheets>
 <sheet>
